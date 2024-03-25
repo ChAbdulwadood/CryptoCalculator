@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Calculator</title>    
+</head>
+<link rel="stylesheet" href="CryptoCalculator.css">
+<body>
+<div class="container">
+    <h1>Crypto Calculator</h1>
+    <input type="number" id="amount" placeholder="Enter amount">
+    <select id="crypto">
+        <option value="bitcoin">Bitcoin (BTC)</option>
+        <option value="ethereum">Ethereum (ETH)</option>
+        <option value="litecoin">Litecoin (LTC)</option>
+        <option value="ripple">Ripple (XRP)</option>
+    </select>
+    <button onclick="calculate()">Calculate</button>
+    <div id="result"></div>
+</div>
+<script src="CryptoCalcuator.js"></script>
+</body>
+</html>
